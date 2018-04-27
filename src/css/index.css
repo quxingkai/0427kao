@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a:nth-child(1) {
+  position: relative;
+  flex: 1;
+  top: -0.6rem;
+  height: 0.7rem;
+  padding: 0 0 0 5%;
+}
+
+.header a:nth-child(1) input {
+  width: 100%;
+  height: 0.7rem;
+  padding-left: 0.7rem;
+}
+
+.header a:nth-child(1) i.icon {
+  position: absolute;
+  left: 6%;
+  top: 0.8rem;
+}
+
+.header a:nth-child(2) {
+  color: #000;
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  text-align: center;
+  line-height: 0.7rem;
+}
+
+.header a:nth-child(2) i.icon {
+  position: relative;
+  top: -0.26rem;
+  font-size: 0.44rem;
+}
+
+section {
+  flex: 1;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.pages, .page {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 1.3rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.footer dl {
+  flex: 1;
+}
+
+.footer dl dt, .footer dl dd {
+  width: 100%;
+  text-align: center;
+  font-size: 0.34rem;
+}
+
+.footer dl dt i.icon {
+  font-size: 0.46rem;
+}
+
+.footer dl.bg {
+  color: #DD6B2D;
+}
+
+.listIcon {
+  width: 100%;
+  height: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.listIcon dl {
+  flex: 1;
+}
+
+.listIcon dl dt, .listIcon dl dd {
+  width: 100%;
+  text-align: center;
+  font-size: 0.30rem;
+}
+
+.listIcon dl dt img {
+  width: 0.66rem;
+}
+
+.news {
+  width: 100%;
+  height: 1.8rem;
+  padding: 0.3rem 5%;
+}
+
+.news dl {
+  display: flex;
+  align-items: center;
+}
+
+.news dl dt {
+  flex: 3;
+}
+
+.news dl dt img {
+  width: 100%;
+}
+
+.news dl dd {
+  padding-left: 0.4rem;
+  flex: 7;
+}
+
+.news dl dd h6 {
+  font-size: 0.36rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.news dl dd p {
+  color: #999;
+  font-size: 0.3rem;
+  line-height: 1.5;
+}
+
+.page1 {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.ban {
+  width: 100%;
+}
+
+.ban img {
+  width: 100%;
+}
+
+.tit {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.36rem;
+  font-weight: 600;
+  padding-left: 5%;
+}
+
+.banlist {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banlist ul {
+  width: 160%;
+}
+
+.banlist ul li {
+  float: left;
+  width: 16%;
+}
+
+.banlist ul li img {
+  width: 90%;
+}

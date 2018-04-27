@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth/375 *50 +'px';
+    </script>
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/libs/swiper-3.4.2.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <label class="search"><i class="icon iconfont icon-fangdajing"></i><input id="inp" type="text" placeholder="小米MIX 2s"></label>
+            <span class="del">取消</span>
+        </header>
+        <section>
+            <div class="tit">
+                热门搜索
+            </div>
+            <div class="ban">
+                <img src="img/banner3.png" alt="">
+            </div>
+            <ul class="searchlist">
+               <!-- <li>红米Note5</li>
+               <li>净水器厨下</li>
+               <li>小米MIX2</li>
+               <li>小米笔记本</li> -->
+            </ul>
+            <div class="btnSearch">
+               搜索记录
+            </div>
+            <ul class="searchHistoy">
+                <li><i class="icon iconfont icon-05"></i><span>小米笔记本</span></li>
+                <li><i class="icon iconfont icon-05"></i><span>红米Note5</span></li>
+                <li><i class="icon iconfont icon-05"></i><span>净水器厨下</span></li>
+                <li><i class="icon iconfont icon-05"></i><span>小米MIX2</span></li>
+            </ul>
+            <div class="clear">
+                清空历史记录
+            </div>
+            <ul class="info">
+                <li><span>小米笔记本</span></li>
+            </ul>
+        </section>
+    </div>
+    <script src="js/libs/jquery-2.1.1.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
